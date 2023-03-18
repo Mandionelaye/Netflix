@@ -1,0 +1,55 @@
+.film{
+    padding: 0%;
+    text-decoration: none;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.03);
+    border-radius: 6px;
+    overflow: hidden;
+    max-width: 300px;
+    padding: relative;
+    height: 600px;
+    display: block;
+    color: #747474;
+    transition: 1s;
+}
+.img{
+    margin: 0;
+    height: 450px;
+    object-fit: fill;
+    max-width: 300px;
+    object-position: 50% 50%;
+    border-radius: 5px 5px 0px 0px;
+    transition: 1s;
+}
+
+.text{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: beige;
+    max-width: 300px;
+    padding: 5px;
+    border-radius: 0px 0px 5px 5px;
+    transition: 1s;
+}
+.titre{
+    display: flex;
+    flex-direction: row;
+}
+.danger{
+    background-color: transparent;
+  border: 1px solid #ff0000;
+  color:#ff0000;
+  border-radius: 5px;
+  width: 80px;
+  height: 40px;
+     text-decoration: none;
+     margin-top:5px ;
+}
+
+
+#star{
+    color: #FFD700;
+}
+
