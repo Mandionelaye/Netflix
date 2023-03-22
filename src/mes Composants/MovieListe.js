@@ -6,8 +6,7 @@ export default function MovieListe({movies}) {
         return movies.map((movie) =>{
             return (
                 <MovieCard key={movie.id}
-                title={movie.title}
-                 description ={movie.description} 
+                title={movie.title} 
                 posterURL={movie.posterURL} 
                 rating={movie.rating} />
             );
