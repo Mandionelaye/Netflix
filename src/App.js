@@ -13,9 +13,6 @@ function App() {
   }
   return (
     <>
-    
-             
-    
     <Routes>
     <Route path="/" element={<Home monFilms={general}/>}></Route>
     <Route path="/film/:name" element={<Desc movies={monFilm}/>}></Route>
